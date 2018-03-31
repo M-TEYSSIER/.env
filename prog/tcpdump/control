@@ -1,0 +1,20 @@
+Package: tcpdump
+Version: 4.9.2-1~deb9u1
+Architecture: amd64
+Maintainer: Romain Francoise <rfrancoise@debian.org>
+Installed-Size: 1191
+Depends: libc6 (>= 2.14), libpcap0.8 (>= 1.5.1), libssl1.0.2 (>= 1.0.2d)
+Section: net
+Priority: optional
+Multi-Arch: foreign
+Homepage: http://www.tcpdump.org/
+Description: command-line network traffic analyzer
+ This program allows you to dump the traffic on a network. tcpdump
+ is able to examine IPv4, ICMPv4, IPv6, ICMPv6, UDP, TCP, SNMP, AFS
+ BGP, RIP, PIM, DVMRP, IGMP, SMB, OSPF, NFS and many other packet
+ types.
+ .
+ It can be used to print out the headers of packets on a network
+ interface, filter packets that match a certain expression. You can
+ use this tool to track down network problems, to detect attacks
+ or to monitor network activities.
