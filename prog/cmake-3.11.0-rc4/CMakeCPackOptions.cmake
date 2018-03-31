@@ -325,7 +325,7 @@ if("${CPACK_GENERATOR}" STREQUAL "WIX")
     "/home/mte/.env/prog/cmake-3.11.0-rc4/Utilities/Release/WiX/WIX.template.in"
   )
 
-  set(BUILD_QtDialog "")
+  set(BUILD_QtDialog "OFF")
 
   if(BUILD_QtDialog)
     list(APPEND CPACK_WIX_PATCH_FILE

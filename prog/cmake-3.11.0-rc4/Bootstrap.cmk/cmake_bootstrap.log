@@ -1,19 +1,19 @@
 Checking for GNU toolchain
 Try: gcc
-Line: gcc  cmake_bootstrap_3068_test.c -o cmake_bootstrap_3068_test
+Line: gcc  cmake_bootstrap_6532_test.c -o cmake_bootstrap_6532_test
 ----------  file   -----------------------
 int main() { return 0; }
 ------------------------------------------
 Test succeeded
 Try: g++
-Line: g++  cmake_bootstrap_3068_test.cpp -o cmake_bootstrap_3068_test
+Line: g++  cmake_bootstrap_6532_test.cpp -o cmake_bootstrap_6532_test
 ----------  file   -----------------------
 int main() { return 0; }
 ------------------------------------------
 Test succeeded
 Checking whether 'gcc   ' works.
 Try: gcc
-Line: gcc    cmake_bootstrap_3068_test.c -o cmake_bootstrap_3068_test
+Line: gcc    cmake_bootstrap_6532_test.c -o cmake_bootstrap_6532_test
 ----------  file   -----------------------
 
 #ifdef __cplusplus
@@ -41,7 +41,7 @@ int main(int argc, char* argv[])
 Test succeeded
 Checking whether 'gcc     ' works.
 Try: gcc
-Line: gcc      cmake_bootstrap_3068_test.c -o cmake_bootstrap_3068_test
+Line: gcc      cmake_bootstrap_6532_test.c -o cmake_bootstrap_6532_test
 ----------  file   -----------------------
 
 #ifdef __cplusplus
@@ -69,7 +69,7 @@ int main(int argc, char* argv[])
 Test succeeded
 Checking whether 'gcc       ' works.
 Try: gcc
-Line: gcc        cmake_bootstrap_3068_test.c -o cmake_bootstrap_3068_test
+Line: gcc        cmake_bootstrap_6532_test.c -o cmake_bootstrap_6532_test
 ----------  file   -----------------------
 
 #ifdef __cplusplus
@@ -97,7 +97,7 @@ int main(int argc, char* argv[])
 Test succeeded
 Checking whether 'g++   ' works.
 Try: g++
-Line: g++    cmake_bootstrap_3068_test.cxx -o cmake_bootstrap_3068_test
+Line: g++    cmake_bootstrap_6532_test.cxx -o cmake_bootstrap_6532_test
 ----------  file   -----------------------
 
 #include <iostream>
@@ -135,7 +135,7 @@ int main()
 Test succeeded
 Checking whether 'g++      ' works.
 Try: g++
-Line: g++       cmake_bootstrap_3068_test.cxx -o cmake_bootstrap_3068_test
+Line: g++       cmake_bootstrap_6532_test.cxx -o cmake_bootstrap_6532_test
 ----------  file   -----------------------
 
 #include <iostream>
@@ -173,7 +173,7 @@ int main()
 Test succeeded
 Checking whether 'g++         ' works.
 Try: g++
-Line: g++          cmake_bootstrap_3068_test.cxx -o cmake_bootstrap_3068_test
+Line: g++          cmake_bootstrap_6532_test.cxx -o cmake_bootstrap_6532_test
 ----------  file   -----------------------
 
 #include <iostream>
@@ -217,7 +217,7 @@ Try: make
 1
 make works
 Try: g++
-Line: g++           -DTEST_KWSYS_CXX_HAS_SETENV /home/mte/.env/prog/cmake-3.11.0-rc4/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_3068_test
+Line: g++           -DTEST_KWSYS_CXX_HAS_SETENV /home/mte/.env/prog/cmake-3.11.0-rc4/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_6532_test
 ----------  file   -----------------------
 /* Distributed under the OSI-approved BSD 3-Clause License.  See accompanying
    file Copyright.txt or https://cmake.org/licensing#kwsys for details.  */
@@ -599,7 +599,7 @@ int main()
 ------------------------------------------
 Test succeeded
 Try: g++
-Line: g++           -DTEST_KWSYS_CXX_HAS_UNSETENV /home/mte/.env/prog/cmake-3.11.0-rc4/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_3068_test
+Line: g++           -DTEST_KWSYS_CXX_HAS_UNSETENV /home/mte/.env/prog/cmake-3.11.0-rc4/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_6532_test
 ----------  file   -----------------------
 /* Distributed under the OSI-approved BSD 3-Clause License.  See accompanying
    file Copyright.txt or https://cmake.org/licensing#kwsys for details.  */
@@ -981,7 +981,7 @@ int main()
 ------------------------------------------
 Test succeeded
 Try: g++
-Line: g++           -DTEST_KWSYS_CXX_HAS_ENVIRON_IN_STDLIB_H /home/mte/.env/prog/cmake-3.11.0-rc4/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_3068_test
+Line: g++           -DTEST_KWSYS_CXX_HAS_ENVIRON_IN_STDLIB_H /home/mte/.env/prog/cmake-3.11.0-rc4/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_6532_test
 ----------  file   -----------------------
 /* Distributed under the OSI-approved BSD 3-Clause License.  See accompanying
    file Copyright.txt or https://cmake.org/licensing#kwsys for details.  */
@@ -1367,7 +1367,7 @@ int main()
              ^~~~~~~
 Test failed to compile
 Try: g++
-Line: g++           -DTEST_KWSYS_STL_HAS_WSTRING /home/mte/.env/prog/cmake-3.11.0-rc4/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_3068_test
+Line: g++           -DTEST_KWSYS_STL_HAS_WSTRING /home/mte/.env/prog/cmake-3.11.0-rc4/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_6532_test
 ----------  file   -----------------------
 /* Distributed under the OSI-approved BSD 3-Clause License.  See accompanying
    file Copyright.txt or https://cmake.org/licensing#kwsys for details.  */
@@ -1749,7 +1749,7 @@ int main()
 ------------------------------------------
 Test succeeded
 Try: g++
-Line: g++           -DTEST_KWSYS_CXX_HAS_EXT_STDIO_FILEBUF_H /home/mte/.env/prog/cmake-3.11.0-rc4/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_3068_test
+Line: g++           -DTEST_KWSYS_CXX_HAS_EXT_STDIO_FILEBUF_H /home/mte/.env/prog/cmake-3.11.0-rc4/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_6532_test
 ----------  file   -----------------------
 /* Distributed under the OSI-approved BSD 3-Clause License.  See accompanying
    file Copyright.txt or https://cmake.org/licensing#kwsys for details.  */
